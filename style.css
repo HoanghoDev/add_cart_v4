@@ -19,6 +19,7 @@ button{
     max-width: 90vw;
     text-align: center;
     padding-top: 10px;
+    transition: 0.5s;
 }
 header{
     display: flex;
@@ -90,9 +91,6 @@ header{
 }
 body.activeTabCart .cartTab{
     right: 0;
-}
-.container{
-    transition: 0.5s;
 }
 body.activeTabCart .container{
     transform: translateX(-250px);
